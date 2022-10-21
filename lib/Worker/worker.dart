@@ -48,12 +48,12 @@ class worker {
       description = getDesc;
       icon = geticon;
     } catch (e) {
-      temp = "Can't Find Data";
-      humidity = "Can't Find Data";
-      air_speed = "Can't Find Data";
-      weather = "Can't Find Data";
+      temp = "NA";
+      humidity = "NA";
+      air_speed = "NA";
+      weather = "NA";
       description = "Can't Find Data";
-      icon = "03n";
+      icon = "09d";
     }
   }
 }
